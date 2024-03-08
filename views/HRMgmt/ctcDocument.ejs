@@ -1,0 +1,170 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CTC Breakup</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:8050/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inconsolata:wght@400;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans&display=swap" >
+    <link rel="stylesheet" href="http://localhost:8050/css/CTCBreakup.css" type="text/css"/>
+</head>
+
+<body>
+    <div class="page">
+        <div class="logo">
+            <img src="http://localhost:8050/img/Logo.png" alt="logo">
+        </div>
+        <div class="CTC_Table">
+            <p id="CTC-text" class="universal">CTC Breakup</p>
+            <table cellspacing="0" border="0" style="margin-top: 2em;" id="table" class="universal">
+                <colgroup width="53"></colgroup>
+                <colgroup width="379"></colgroup>
+                <colgroup span="2" width="128"></colgroup>
+                <tr class="text-size">
+                    <td colspan=2 height="49" align="left" valign=top>
+                        <span> Name: <%=salaryStructure.employeeFullName%></span> 
+                    </td>
+                    <td colspan=2 align="left" valign=middle>
+                        <span> Job Band : <%=salaryStructure.jobLevel%> </span>
+                    </td>
+                </tr>
+                <tr class="text-size">
+                    <td colspan=2 height="49" align="left" valign=top>
+                        <span> Role : <%=employee.orgRole%>  </span>
+                    </td>
+                    <td colspan=2 align="left" valign=middle>
+                        <span> Year : <%=salaryStructure.financialYear%> </span>
+                    </td>
+                </tr>
+                <tr class="text-size">
+                    <td height="33" align="center" valign=middle>
+                        Sl.
+                    </td>
+                    <td align="left" valign=middle> Description </td>
+                    <td align="left" valign=middle> Monthly </td>
+                    <td align="left" valign=middle> Yearly </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <br> </td>
+                    <td align="left" valign=middle>
+                        <b> Monthly Component </b>
+                    </td>
+                    <td align="left" valign=middle> <br> </td>
+                    <td align="left" valign=middle> <br> </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%> </td>
+                    <td align="left" valign=middle> Basic Salary </td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyBasic%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyBasic%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%> </td>
+                    <td align="left" valign=middle> House Rent Allowance </td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyHRA%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyHRA%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%> </td>
+                    <td align="left" valign=middle> Personal Allowance </td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyPersonalAllowance%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyPersonalAllowance%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%> </td>
+                    <td align="left" valign=middle> Phone and Data Allowances </td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyPhoneAndDataAllowance%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyPhoneAndDataAllowance%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%> </td>
+                    <td align="left" valign=middle> Meal Allowance</td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyMealAllowance%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyMealAllowance%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%> </td>
+                    <td align="left" valign=middle> Conveyance Allowance</td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyTravelAllowance%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyTravelAllowance%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <br> </td>
+                    <td align="left" valign=middle> <b>Annual Component</b></td>
+                    <td align="left" valign=middle> <br> </td>
+                    <td align="left" valign=middle> <br> </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%> </td>
+                    <td align="left" valign=middle> Medical Insurance Premium </td>
+                    <td align="left" valign=middle> <br> </td>
+                    <td align="right" valign=middle> <%=salaryStructure.medicalPremium%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <br> </td>
+                    <td align="left" valign=middle> <br> </td>
+                    <td align="left" valign=middle> <br> </td>
+                    <td align="left" valign=middle> <br> </td>
+                </tr>
+
+                <% if(salaryStructure.eligibleForPF===true){ %> 
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%></td>
+                    <td align="left" valign=middle><b> Provident Fund </b></td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyProvidentFund%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyProvidentFund%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%></td>
+                    <td align="left" valign=middle><b> Gratuity </b></td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyGratuity%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyGratuity%>  </td>
+                </tr>
+
+                <%}%>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%></td>
+                    <td align="left" valign=middle><b> Indicative Festival Bonus (@100%) </b></td>
+                    <td align="left" valign=middle> <br> </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyFestivalBonus%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <%=count++%> </td>
+                    <td align="left" valign=middle><b> Indicative Performance Bonus (@100%) </b></td>
+                    <td align="right" valign=middle> <%=salaryStructure.monthlyPerformanceBonus%>  </td>
+                    <td align="right" valign=middle> <%=salaryStructure.yearlyPerformanceBonus%>  </td>
+                </tr>
+                <tr>
+                    <td height="33" align="center" valign=middle> <br> </td>
+                    <td align="left" valign=middle><b> CTC Total </b></td>
+                    <td align="left" valign=middle> <br> </td>
+                    <td align="right" valign=middle> <%=salaryStructure.annualCTC%>  </td>
+                </tr>
+                <tr>
+                    <td rowspan=2 height="52" align="center" valign=middle> <br> </td>
+                    <td colspan=3 rowspan=2 align="left" valign=middle><b> Annual CTC (with indicative Bonus):
+                            <br><%= toWords.convert(salaryStructure.annualCTC,{currency:true}) %> </b></td>
+                </tr>
+                <tr>
+                </tr>
+            </table>
+        </div>
+        <div class="aft-text universal">
+            <p>Festival Bonus would be disbursed in the month of Sept/Oct and would vary between 100-125% of
+                One Month Basic Salary.</p>
+            <p>Annual Performance Bonus would be disbursed quarterly and would be revised yearly based on performance.
+                Quarterly payment would vary between 50-200%.</p>
+            <p>To be eligible for Festival Bonus, an employee must complete one year of service by 30th September of
+                that
+                year.</p>
+        </div>
+        <div class="pageNo universal"><b>Page No. 1</b></div>
+    </div>
+</body>
+
+</html>

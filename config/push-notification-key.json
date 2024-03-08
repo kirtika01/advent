@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "westroadnotifications",
+  "private_key_id": "f0d4fa84029bb29257672ad12eb25aadd8528d9c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxq8aAAq/QdMwh\nPT1shKiC4MydfHtrcybJx0nzfiT2t5tbw3u5Fgc39tIjKNUOFVx0gD7rnoSuxphB\nlT1jBmAIpQJI4Ng24Y/ZWpuunwLGQbIiF5cfAzGlH7TTqT5vUISGHAQtXx1aVWi0\n+ejlGA+0x45Ysp9dAfqzCCeBqdloNMgyGpv+Zph4ZNWaC7i1qz6jrOltXFw/53F7\nuuTfGDC1ZBOjtR9Yt8pM/x2ov25m+hBmfSSTrWG07mXOV8IcxjMKP5fXZBdIF3Uc\ncPLvqNj9G+a/v3EcgmKwVgWjCXi5EQ+k+5OXUEABO6d5c7OxOsJK0W5UnupF1+cg\nm+CBAGxdAgMBAAECggEAAIvYKOWZN8lcJVAEY9SGlhxt1KAg2wQ4Hs+zjQGayH1p\nB1+y/i8wp33lSIFkIk5zgdIxH1VV8BmhNzZnwWmwGuay+pliYMzRvefW6bMIdaaX\nDx7Gcqx2Vx0hV7NCA2KafbURWDheJTx0/XV1P1sTFUm1yNUHw2fxpuJECNSGXBko\nIQdva4ucKwwuAC5hNq7AS/aX27EuLNPOApQm33B5pkM2UGW7XBFpApp3xvRyZaZk\nUODrTfqb6+rf+GzjKF/zb18gGy7dcijmBH5Glcd+sLqM6RhI1eKYU0grNKWuVuqg\npB6Wq2vcRCOp+Z3q7JZd12pQyHAH4mCsW+Ycsp6P2wKBgQDriqMtTPberYm6jQva\n88T15HFVIV2wnwNKb/48AhxfuIrVdyNLoIy2VpEGdTwJ9Cqxdx1KG8Lx/7CMHaaG\n0y3rYldrliFzltb8hGMah4zE6B5Yk0BW6cxm0NC+2bJ0jVIM4ofpwo//w3Zgn4qm\nQgBYKFYXedGZcfZdlcqwdqM/bwKBgQDBGlzRLeeDmN2V0/rrBKThkQAYEDvSXjeT\nLxq8cI0sKNsNHyvc3fCJdsaKRuvCVyC5bh92Owr1tYAOqyfqR40WVT/dGAGudbzA\ng1qb/UnaoG+4jM31xiyBbdIn5MyNQgVy4ev9q2wpX4bg21Et0zneqPPIPYALEWz9\nEEDdzQ0q8wKBgCkopLL5y/nFYVfT5cpw5m4BaTxzBCgk4TJUt5xM0iB34urCUsyY\nVX5XSihSvBcRL5SrN9cHWt1mzLbvR3Yv2MpU+Om35kiIhzDBAYBVR2fxF7xqnseR\nO0KMIq325JQxTbEqtI1IjlknErx3pIbA6cZ95e1cQCAMJfzce/qyAHzJAoGASWiO\nNG8w/dQVGKo3TzS6wY1v7bXuJ/DtS6Syk0RuRoVZkMly0UoF8RwYKeUAJyccJ6H3\nj+iuJ+5RukHSsLt2pTDPUGuZ6AqWMNE+luJZOyWWkx/kBDTMIn/vTn8qS+D3VU8R\neaO7QJcyHTUCzVrpOv4bftnyXULIngOZxTf4c4UCgYEA6b7sGgiqBRbqs5sfMpLi\noYOazMpIiX7v5ki+NOMgjwoqSwH6FuEChU0zRNQOuATxHyhmlBonuU1LLWVr7xxp\nQ8j6alHFZnJDoXEz5lYlYWqnz5dhRp7iqY5w7IEN6VeTtIdEbYSEIUCW+IYH32Xo\nPni6a5p8xYkZuopyRNbKz/U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-jixe6@westroadnotifications.iam.gserviceaccount.com",
+  "client_id": "108298883582138630092",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-jixe6%40westroadnotifications.iam.gserviceaccount.com"
+}
